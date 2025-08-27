@@ -1,3 +1,6 @@
+// https://github.com/telegramdesktop/tdesktop/blob/dev/Telegram/SourceFiles/mtproto/scheme/api.tl
+// https://github.com/tdlib/td/blob/master/td/generate/scheme/telegram_api.tl
+
 ///////////////////////////////
 ///////// Main application API
 ///////////////////////////////
@@ -9,16 +12,16 @@
 
 ---types---
 
-//boolFalse#bc799737 = Bool;
-//boolTrue#997275b5 = Bool;
+boolFalse#bc799737 = Bool;
+boolTrue#997275b5 = Bool;
 
-//true#3fedd339 = True;
+true#3fedd339 = True;
 
-//vector#1cb5c415 {t:Type} # [ t ] = Vector t;
+vector#1cb5c415 {t:Type} # [ t ] = Vector t;
 
-//error#c4b9f9bb code:int text:string = Error;
+error#c4b9f9bb code:int text:string = Error;
 
-//null#56730bcc = Null;
+null#56730bcc = Null;
 
 inputPeerEmpty#7f3b18ea = InputPeer;
 inputPeerSelf#7da07ec9 = InputPeer;
